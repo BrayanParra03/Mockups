@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding-top: 76px;
+    background-color: #f9fbfd;
+}
+
+/* Secciones */
+.section-padding {
+    padding: 100px 0;
+}
+
+/* HERO */
+.hero-section {
+    background: linear-gradient(135deg, #00e0c6 0%, #42a5f5 50%, #5ed5e8 100%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.text-highlight {
+    color: #fff176;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.hero-buttons .btn {
+    border-radius: 50px;
+    padding: 0.7rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: #2196f3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e88e5;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-image img {
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.4s ease, border-color 0.4s ease;
+    max-width: 350px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.hero-image img:hover {
+    transform: scale(1.06);
+    border-color: #ffffff;
+}
+
+/* Títulos de secciones */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #222;
+    text-transform: capitalize;
+}
+
+/* Tarjetas de habilidades */
+.skill-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Proyectos */
+.project-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.project-card-body {
+    padding: 1.5rem;
+}
+
+.tech-badge {
+    background: #eaf7f6;
+    color: #00a2e8;
+    padding: 0.4rem 0.9rem;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+/* Footer */
+.footer-section {
+    background: #263238;
+    color: #ddd;
+}
+
+.footer-section p {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    body {
+        padding-top: 66px;
+    }
+
+    .hero-title {
+        font-size: 2.3rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .hero-image img {
+        max-width: 250px;
+    }
+}
